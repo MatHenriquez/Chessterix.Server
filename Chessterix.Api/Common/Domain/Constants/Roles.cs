@@ -1,8 +1,7 @@
-﻿namespace Chessterix.Api.Common.Domain.Constants
+﻿namespace Chessterix.Api.Common.Domain.Constants;
+
+public enum Roles
 {
-    public enum Roles
-    {
-        Admin,
-        User
-    }
+    Admin,
+    User,
 }
